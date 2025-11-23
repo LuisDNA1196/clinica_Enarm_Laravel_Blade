@@ -15,6 +15,10 @@ RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 # Copiar archivos del proyecto
 COPY . /var/www/html/
 
+# Crear .env dentro del contenedor
+RUN cp .env.example .env
+
+
 # Establecer directorio de trabajo
 WORKDIR /var/www/html
 
