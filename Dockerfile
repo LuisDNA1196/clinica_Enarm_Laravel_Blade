@@ -1,46 +1,44 @@
-# Imagen base con PHP 8.2 + Apache
 FROM php:8.2-apache
 
-# Instalar extensiones necesarias de Laravel
+# Instalar extensiones necesarias
 RUN apt-get update && apt-get install -y \
-    zip unzip sqlite3 libsqlite3-dev libonig-dev libzip-dev \
-    && docker-php-ext-install pdo pdo_mysql pdo_sqlite zip
+    zip unzip sqlite3 libsqlite3-dev libzip-dev \
+    && docker-php-ext-install pdo pdo_sqlite mysqli zip
 
 # Habilitar mod_rewrite
 RUN a2enmod rewrite
 
-# Configuración de Apache para permitir .htaccess
-RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
-
 # Copiar archivos del proyecto
 COPY . /var/www/html/
 
-# Crear .env dentro del contenedor
-RUN cp .env.example .env
-
+# Copiar config de Apache que apunta a /public
+COPY docker/apache/laravel.conf /etc/apache2/sites-available/000-default.conf
 
 # Establecer directorio de trabajo
 WORKDIR /var/www/html
 
-# Instalar Composer dentro del contenedor
+# Crear archivo .env dentro del contenedor
+RUN cp .env.example .env
+
+# Instalar Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Instalar dependencias PHP
+# Instalar dependencias Laravel
 RUN composer install --no-dev --optimize-autoloader
 
 # Crear BD SQLite
-RUN touch database/database.sqlite
+RUN mkdir -p database && touch database/database.sqlite
 
-# Dar permisos a storage y bootstrap
+# Permisos necesarios
 RUN chmod -R 777 storage bootstrap/cache database
 
-# Generar key si no existe
+# Generar APP_KEY
 RUN php artisan key:generate --force
 
-# Correr migraciones y seeders
+# Migraciones y seeders
 RUN php artisan migrate --force --seed
 
-# Exponer puerto
+# Exponer puerto 80
 EXPOSE 80
 
 CMD ["apache2-foreground"]
