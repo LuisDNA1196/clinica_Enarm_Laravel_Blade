@@ -5,7 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TopicController;
 use App\Http\Controllers\SubtopicController;
 use App\Http\Controllers\FlashcardController;
-use App\Http\Controllers\CloudServiceController; 
+use App\Http\Controllers\CloudServiceController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
@@ -13,6 +13,7 @@ Route::resource('topics', TopicController::class)->only(['index', 'show']);
 Route::resource('subtopics', SubtopicController::class)->only(['show']);
 Route::resource('flashcards', FlashcardController::class)->only([
     'index', 'create', 'store', 'edit', 'update', 'destroy',
+    Route::view('/multimedia', 'media.index')->name('media'),
 ]);
 
 // 👇 Nueva página de servicios en la nube
