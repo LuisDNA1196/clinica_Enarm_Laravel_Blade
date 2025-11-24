@@ -101,19 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card card-soft-outline h-100">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <i class="bi bi-cloud-arrow-up me-2 text-primary"></i> Abre recursos en la nube
-                    </h5>
-                    <p class="card-text text-muted">
-                        Accede a videos, PDFs e infografías alojadas en YouTube, Drive u otras plataformas,
-                        directamente desde cada subtema.
-                    </p>
-                </div>
-            </div>
-        </div>
+        
         <div class="col-md-4">
             <div class="card card-soft-outline h-100">
                 <div class="card-body">
@@ -127,5 +115,24 @@
                 </div>
             </div>
         </div>
+         <div class="col-md-4">
+        <div class="card card-soft-outline h-100">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-cloud-arrow-up me-2 text-primary"></i>
+                    Servicios en la nube
+                </h5>
+                <p class="card-text text-muted">
+                    Consulta cómo se despliega la aplicación en un servicio de la nube
+                    utilizando Docker y Render, incluyendo la base de datos y el flujo
+                    de despliegue desde GitHub.
+                </p>
+                <a href="{{ route('cloud-services') }}" class="btn btn-sm btn-outline-primary">
+                    Ver detalles del despliegue
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
 @endsection
