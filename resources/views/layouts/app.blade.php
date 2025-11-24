@@ -137,7 +137,13 @@
                                 Servicios en la Nube
                             </a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('media') ? 'active' : '' }}"
+                                href="{{ route('media') }}">
+                                <i class="bi bi-film me-1"></i>
+                                Multimedia
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

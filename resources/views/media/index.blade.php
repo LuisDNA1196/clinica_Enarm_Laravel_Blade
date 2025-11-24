@@ -28,19 +28,14 @@
         <div class="col-md-6">
             <div class="card card-soft-outline h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Audio 1 – Clinica Enarm Episodio 1: Introduccion</h5>
+                                            <a href="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-episodio-1-introduccion">
+<h5 class="card-title">Audio 1 – Clinica Enarm Episodio 1: Introduccion</h5></a>
                     <p class="card-text text-muted small">
                         En este clip se explica brevemente el objetivo de la plataforma Clínica ENARM
                         y cómo utilizarla para repasar los temas mediante tarjetas de estudio.
                     </p>
-                    <div class="ratio ratio-16x9">
-                        <iframe
-                            scrolling="no"
-                            frameborder="no"
-                            allow="autoplay"
-                            src="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-episodio-1-introduccion"
-                        ></iframe>
-                    </div>
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2171008014&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/luis-narvaez-929279557" title="Luis Narvaez" target="_blank" style="color: #cccccc; text-decoration: none;">Luis Narvaez</a> · <a href="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-episodio-1-introduccion" title="Clinica Enarm Episodio 1: Introduccion" target="_blank" style="color: #cccccc; text-decoration: none;">Clinica Enarm Episodio 1: Introduccion</a></div>
+                            </a>
                 </div>
             </div>
         </div>
@@ -48,18 +43,11 @@
         <div class="col-md-6">
             <div class="card card-soft-outline h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Audio 2 – Clinica Enarm ep1 con musica de fondo</h5>
+                   <a href="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-ep1-con-musica-de-fondo"> <h5 class="card-title">Audio 2 – Clinica Enarm ep1 con musica de fondo</h5></a>
                     <p class="card-text text-muted small">
                         En este audio es una versión mejoarada del Audio 1, con mejor edición y música de fondo.
                     </p>
-                    <div class="ratio ratio-16x9">
-                        <iframe
-                            scrolling="no"
-                            frameborder="no"
-                            allow="autoplay"
-                            src="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-ep1-con-musica-de-fondo"
-                        ></iframe>
-                    </div>
+                       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2175677136&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/luis-narvaez-929279557" title="Luis Narvaez" target="_blank" style="color: #cccccc; text-decoration: none;">Luis Narvaez</a> · <a href="https://soundcloud.com/luis-narvaez-929279557/clinica-enarm-ep1-con-musica-de-fondo" title="Clinica Enarm ep1 con musica de fondo" target="_blank" style="color: #cccccc; text-decoration: none;">Clinica Enarm ep1 con musica de fondo</a></div>
                 </div>
             </div>
         </div>
@@ -77,13 +65,7 @@ Actividad 3.3. Producción de video. Enfermedades del corazón</h5>
                         Video donde se habla sobre el tema de "Enfermedades del corazón" donde se habla a grandes rasgos sobre las mismas y como prevenirlas
                     </p>
                     <div class="ratio ratio-16x9">
-                        <iframe
-                            src="https://www.youtube.com/watch?v=ykVAgebB-tI"
-                            title="Demostración Clínica ENARM"
-                            loading="lazy"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/ykVAgebB-tI?si=JFRRy0OBy32KIcki" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -98,13 +80,7 @@ Actividad 3.3. Producción de video. Enfermedades del corazón</h5>
                         Versión mejoarada dle video 1, donde se agregan imagenes al video para hacerlo más dinamico, asi como musica de fondo y un titulo e imagen de introducción. Musica de intro y outro.
                     </p>
                     <div class="ratio ratio-16x9">
-                        <iframe
-                            src="https://www.youtube.com/watch?v=uIEFR7v8cOk"
-                            title="Explicación tema médico"
-                            loading="lazy"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uIEFR7v8cOk?si=HD8zhR-QbEpE6XL-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
