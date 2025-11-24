@@ -12,10 +12,15 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::resource('topics', TopicController::class)->only(['index', 'show']);
 Route::resource('subtopics', SubtopicController::class)->only(['show']);
 Route::resource('flashcards', FlashcardController::class)->only([
-    'index', 'create', 'store', 'edit', 'update', 'destroy',
+    'index',
+    'create',
+    'store',
+    'edit',
+    'update',
+    'destroy',
     Route::view('/multimedia', 'media.index')->name('media'),
+    Route::get('/servicios-nube', [CloudServiceController::class, 'index'])
+    ->name('cloud-services'),
 ]);
 
-// 👇 Nueva página de servicios en la nube
-Route::get('/servicios-nube', [CloudServiceController::class, 'index'])
-    ->name('cloud-services');
+
